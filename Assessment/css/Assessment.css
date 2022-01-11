@@ -1,0 +1,61 @@
+.header{
+    background-color: black;
+    width: 5px;
+    height: 20px;
+    text-align: center;
+    border: solid springgreen 3px;
+    text-align: center;
+}
+.box{
+    height: 800px;
+}
+.boxsec{
+    height: 200px;
+}
+td{
+    text-align: left;
+}
+label{
+    text-align: left;
+    font-size: 25px;
+}
+button{
+    color:mediumblue;
+}
+.sec{
+    padding-left: 150px;
+    font-size: 20px;
+}
+
+.pag{
+    font-size: 400%;
+    
+    color: green; 
+}
+.box2{
+    width: 80%;
+    height: 40%;
+    padding-left: 150px; 
+    padding-right: 150px;
+    border: 3px solid;
+}
+.a1:hover{color: blue;
+}
+.a2:hover{
+    color:chartreuse;
+}
+.a3:hover{color:cyan;
+}
+.a4:hover{
+    color:deeppink;
+}
+.a5:hover{
+    color: gold;
+}
+
+.tab{
+    padding-top: 100px;
+    padding-left: 40%;
+    font-size: 25px;
+    width: 40%;
+}

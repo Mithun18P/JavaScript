@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg-Thoughtfocus</title>
+    <link rel="stylesheet" href="css/Assessment.css">
+    <link rel="stylesheet" href="css/mystyle.css">
+    <a href="http://127.0.0.1:5500/Registration.html" id="reset"></a>
+    <script src="js/Emplyoee.js"></script>
+    <!-- <script src="js/localemp.js"></script> -->
+</head>
+
+<body>
+    <div class="border">
+        <img src="img/logo-Thoughtfocus.jpg" alt="" class="box1" style="float: left; width: 125px;
+        height: 45px;">
+        <!-- <img src="img/logo-TF.png" alt="" style="width: 1235px;height: 50px"> -->
+        <select name="social media" id="" style="float: right; height: 50px;">
+            <option value="0">Social Media</option>
+            <option value="1"><a href="">FaceBook</a></option>
+            <option value="2"><a href="">Linkdin</a></option>
+            <option value="3"><a href="">Instagram</a></option>
+        </select>
+        <header style=" font-size: 50px;">THOUGHTFOCUS</header>
+        <section style="padding-left: 40%;padding-top: 5%; padding-bottom: 25%;">
+
+            <table>
+                <thead>
+                    <caption style="font-size: 30px; color: darkgreen;">New HR Register Form</caption>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label for="">FirstName</label></td>
+                        <td><input type="text" id="fn"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">LastName</label>
+                        </td>
+                        <td>
+                            <input type="text" id="ln">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="">UserName</label></td>
+                        <td><input type="text" id="un"></td>
+                    </tr>
+                    </tr>
+                    <tr>
+                        <td><label for="">Password</label></td>
+                        <td><input type="password" id="pass"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Address</label></td>
+                        <td><textarea name="address" id="add" cols="20" rows="2"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="">Contact No</label></td>
+                        <td><input type="text" id="phno"></td>
+                    </tr>
+                    <tr>
+                        <td style="text-align: center; padding-top: 10px;"><button
+                                onclick="setemp()">Submit</button></td>
+                                <td style="text-align: center; padding-top: 10px;"><button onclick="reset()" >Reset</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <footer style="font-size: large; background-color: darkgreen;">
+            All Rights &copy; 2022
+        </footer>
+
+</body>
+
+</html>

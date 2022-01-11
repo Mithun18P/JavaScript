@@ -1,0 +1,30 @@
+.border{
+    
+    border: 3px;
+    border-color: rgb(236, 220, 220);
+    border-style: solid;
+    height: 50px;
+    background-color: cadetblue;
+    text-align: center;
+}
+.section{
+    font-size: 50px;
+    border: 3px;
+    border-color: rgb(164, 177, 164);
+    border-style: solid;
+    height: 500px;
+}
+.box1{
+    font-size: 5px;
+    border: 3px;
+    border-color: rgb(146, 206, 146);
+    border-style: solid;
+    width: 308px;
+    height: 35px;
+    background-color: rgb(230, 240, 240);
+    text-align: center;
+    display: inline-block;
+}
+body{
+    background-color: rgb(160, 190, 175);
+}
